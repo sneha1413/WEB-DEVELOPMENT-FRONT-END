@@ -1,0 +1,98 @@
+
+	body{
+    margin:0;
+    padding: 0;
+
+	background-image: url("butterfly-5301066_1280.jpg");
+	background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+ 
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #FEE3EC;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  padding:2px 4px;
+  width: auto;
+
+ 
+}
+.right a {
+	position:absolute; ;
+/*  float: right;
+  display: block;
+  color: black;*/
+  padding-right:2px;
+  right:5px;
+  top: 2px;
+  display: inline-block;
+
+
+ 
+}
+.right a {
+	position:absolute; 
+/*  float: right;
+  display: block;
+  color: black;*/
+  margin:2px 50px;
+  right:5px;
+  top: 2px;
+  display: inline-block;
+
+}
+.topnav input{
+	width: 75%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:white ;
+  color: black;
+}
+.recent{
+padding-right: 20px;
+padding-left: 20px;
+
+}
+.recent a:hover {
+	padding-top: 40px;
+
+  background-color:black; ;
+ /* color: black;*/
+}
+.right a:hover {
+  background-color:white ;
+  color: black;
+}
+
+.bottom {
+  position: fixed;
+  right: 0px; 
+  bottom: 0px;
+ /* width: 200px;
+  height:40px;*/
+  padding: 5px;
+  text-decoration-color: white;
+}
+/*.bottom img {
+	filter:invert(100%);
+
+}
+*/
+image{
+	backface-visibility: hidden;
+}
+h1{
+	font-size: 75px;
+}
+
